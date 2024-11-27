@@ -6,5 +6,6 @@ describe("App", () => {
     render(<App />);
 
     expect(screen.getByText(/count/i)).toBeInTheDocument();
+    expect(screen.getByText(/1.0/i)).toBeInTheDocument();
   });
 });
